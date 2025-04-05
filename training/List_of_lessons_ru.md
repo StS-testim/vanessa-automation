@@ -179,7 +179,7 @@
 ### Глава 7. Создание тестовых данных
    * Обзор. ![](mortarboard.png)[Запустить урок](СозданиеТестовыхДанныхОбзор) [(Видео)](https://youtu.be/tilMo1pPHdU) [(PDF)](https://vanessa-files.do.bit-erp.ru/Doc/1.2.041.1/PDF/Глава07/СозданиеТестовыхДанныхОбзор.pdf) [(MD)](https://github.com/Pr-Mex/vanessa-automation/tree/develop/docs/MainHelp/1.2.041.1/Глава07/СозданиеТестовыхДанныхОбзор.MD)
 
-### Глава 8. Приёмы работы
+### Глава 8. Приёмы, используемые при решении практических задач
    1. Приёмы связанные с выполнением сценариев
         - Как проверить равенство табличного документа эталону. ![](mortarboard.png)[Запустить урок](ПроверитьРавенствоТабличногоДокументаЭталону) [(Видео)](https://youtu.be/aEAPoEHlFOw) [(PDF)](https://vanessa-files.do.bit-erp.ru/Doc/1.2.041.1/PDF/Глава08/ПроверитьРавенствоТабличногоДокументаЭталону.pdf) [(MD)](https://github.com/Pr-Mex/vanessa-automation/tree/develop/docs/MainHelp/1.2.041.1/Глава08/ПроверитьРавенствоТабличногоДокументаЭталону.MD)
         - Как в сценарии выполнить код на языке 1С. ![](mortarboard.png)[Запустить урок](КакВСценарииВыполнитьКодНаЯзыке1С) [(Видео)](https://youtu.be/5QBKER4O_zQ) [(PDF)](https://vanessa-files.do.bit-erp.ru/Doc/1.2.041.1/PDF/Глава08/КакВСценарииВыполнитьКодНаЯзыке1С.pdf) [(MD)](https://github.com/Pr-Mex/vanessa-automation/tree/develop/docs/MainHelp/1.2.041.1/Глава08/КакВСценарииВыполнитьКодНаЯзыке1С.MD)
