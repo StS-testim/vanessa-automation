@@ -21616,10 +21616,13 @@
 КонецФункции	 
 
 &НаКлиенте
-Функция ЭтоОкноНеДляСнятияСкриншотов(Class)
+Функция ЭтоОкноНеДляСнятияСкриншотов(ДанныеОкна)
+	Class = ДанныеОкна.Class;
 	Если Class = "Internet Explorer_Hidden"
 		Или Class = "V8Window"
-		Или Class = "V8ConfirmationWindowTaxi" Тогда
+		Или Class = "V8ConfirmationWindowTaxi"
+		Или (Class = "V8Window0.0" И НЕ ДанныеОкна.Свойство("Title"))
+		Тогда
 		Возврат Истина;
 	КонецЕсли;
 	
