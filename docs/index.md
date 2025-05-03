@@ -9,7 +9,7 @@
 ## BDD for 1С:Enterprise
 
 * Текущий **мажорный** релиз [1.2.042.1](https://github.com/Pr-Mex/vanessa-automation/releases/tag/1.2.042.1)
-* Текущий **минорный** релиз [1.2.042.1](https://github.com/Pr-Mex/vanessa-automation/releases/tag/1.2.042.1)
+* Текущий **минорный** релиз [1.2.042.12](https://github.com/Pr-Mex/vanessa-automation/releases/tag/1.2.042.12)
 * Разработка ведется в ветке [Develop](https://github.com/Pr-Mex/vanessa-automation/tree/develop).
 * [Обсудить Ванессу](https://t.me/testspro1c) в телеграм группе, и обсудить всё, что связано с тестированием в 1С.
 * [Подписаться на новости о проекте](https://t.me/VanessaAutomation) в телеграм канале.
@@ -64,6 +64,7 @@
 * [Митап «Запускаем дымовые тесты с помощью Vanessa-Automation»](https://youtu.be/FQLX8TlpGvo)
 * [Андрей Хашкин. Опыт применения Vanessa-Automation и других инструментов для обучения и тестирования](https://www.youtube.com/watch?v=v3FKzo86c8A)
 * [Леонид Паутов, Анастасия Андриянова. Промышленное тестирование конфигураций в 1С](https://infostart.ru/video/w2299237/)
+* [Александр Кунташов. Лучшие практики разработки сценариев на Vanessa Automation, которые должен знать каждый тимлид QA](https://vkvideo.ru/video-42867005_456240497)
 
 ## Курсы
 * Бесплатные

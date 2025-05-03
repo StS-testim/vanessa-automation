@@ -4,6 +4,7 @@
    ".\\ServiceBases\\cucumber",
    ".\\ServiceBases\\junitreport"
    ],
+   "ЗапускатьWatcher":true,
    "ВариантыСборок":[
    ".\\JSON\\VBParams8317UF_InstallComponent.json",
    ".\\JSON\\VBParams8324UF_InstallComponent.json",
@@ -20,6 +21,6 @@
    ".\\JSON\\VBParams8322UF.json",
    ".\\JSON\\VBParams8323UF.json",
    ".\\JSON\\VBParams8324UF.json",
-   ".\\JSON\\VBParams8321Web.json"
+   ".\\JSON\\VBParams8324Web.json"
    ]
 }
