@@ -12610,44 +12610,110 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Отбор по сценариям</v8:content>
+															<v8:content>Отбор по сценариям и фичам</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Scenario filter</v8:content>
+															<v8:content>Scenario filter and feature filter</v8:content>
 														</v8:item>
 													</Title>
+													<Group>AlwaysHorizontal</Group>
 													<Behavior>Collapsible</Behavior>
 													<Collapsed>true</Collapsed>
 													<ControlRepresentation>Picture</ControlRepresentation>
 													<ExtendedTooltip name="ГруппаОтборПоСценариямРасширеннаяПодсказка" id="3271"/>
 													<ChildItems>
-														<InputField name="СписокСценариевДляВыполнения" id="3223">
-															<DataPath>Объект.СписокСценариевДляВыполнения</DataPath>
-															<TitleLocation>Top</TitleLocation>
-															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-															<ClearButton>true</ClearButton>
-															<ContextMenu name="СписокСценариевДляВыполненияКонтекстноеМеню" id="3224"/>
-															<ExtendedTooltip name="СписокСценариевДляВыполненияРасширеннаяПодсказка" id="3225">
-																<Width>50</Width>
-																<AutoMaxWidth>false</AutoMaxWidth>
-																<HorizontalStretch>false</HorizontalStretch>
-																<Title formatted="false">
-																	<v8:item>
-																		<v8:lang>en</v8:lang>
-																		<v8:content>Allows you to set the order in which scripts are executed. The scripts will be executed in the order they are listed.
-Plus allows you to set a filter for executing scripts. Only scripts from the list will be executed.
-The script in the list is indicated by its name.</v8:content>
-																	</v8:item>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Позволяет задать порядок выполнения сценариев. Сценарии будут выполняться в том порядке как они указаны в списке.
-Плюс позволяет задать фильтр на выполнение сценариев. Будут выполняться только сценарии из списка.
+														<UsualGroup name="ГруппаОтборПоСценариямЛевыйСтолбец" id="4061">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа отбор по сценариям левый столбец</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Group selection by scenarios left column</v8:content>
+																</v8:item>
+															</Title>
+															<Width>50</Width>
+															<Group>Vertical</Group>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаОтборПоСценариямЛевыйСтолбецРасширеннаяПодсказка" id="4062"/>
+															<ChildItems>
+																<InputField name="СписокСценариевДляВыполнения" id="3223">
+																	<DataPath>Объект.СписокСценариевДляВыполнения</DataPath>
+																	<TitleLocation>Top</TitleLocation>
+																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																	<ClearButton>true</ClearButton>
+																	<ContextMenu name="СписокСценариевДляВыполненияКонтекстноеМеню" id="3224"/>
+																	<ExtendedTooltip name="СписокСценариевДляВыполненияРасширеннаяПодсказка" id="3225">
+																		<Width>50</Width>
+																		<AutoMaxWidth>false</AutoMaxWidth>
+																		<HorizontalStretch>false</HorizontalStretch>
+																		<Title formatted="false">
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Allows you to set a filter for executing scripts - only scripts from the list will be executed.
+Scripts will be executed in the order they are specified in the feature file.
+A script in the list is specified using its name.</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Позволяет задать фильтр на выполнение сценариев - будут выполняться только сценарии из списка.
+Сценарии будут выполняться в том порядке как они указаны в фича файле.
 Сценарий в списке указывается с помощью его имени.</v8:content>
-																	</v8:item>
-																</Title>
-															</ExtendedTooltip>
-														</InputField>
+																			</v8:item>
+																		</Title>
+																	</ExtendedTooltip>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
+														<UsualGroup name="ГруппаОтборПоСценариямПравыйСтолбец" id="4063">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа отбор по сценариям правый столбец</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Group selection by scenarios right column</v8:content>
+																</v8:item>
+															</Title>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаОтборПоСценариямПравыйСтолбецРасширеннаяПодсказка" id="4064"/>
+															<ChildItems>
+																<InputField name="СписокФичДляВыполнения" id="4065">
+																	<DataPath>Объект.СписокФичДляВыполнения</DataPath>
+																	<TitleLocation>Top</TitleLocation>
+																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																	<ClearButton>true</ClearButton>
+																	<ContextMenu name="СписокФичДляВыполненияКонтекстноеМеню" id="4066"/>
+																	<ExtendedTooltip name="СписокФичДляВыполненияРасширеннаяПодсказка" id="4067">
+																		<Title formatted="false">
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Позволяет задать порядок выполнения фича файлов.
+Также устанавливает отбор - будут запускаться фича файлы только из списка.
+Можно передавать полный путь к фича файлу (c:\temp\my.feature).
+Можно передавать имя фичи без полного пути (my.feature).
+Можно передавать имя фичи без полного пути  и без расширения файла (my).
+Настройка применяется, только если происходит загрузка фича файлов из каталога.</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Allows you to set the order of execution of feature files.
+Also sets the selection - only feature files from the list will be launched.
+You can pass the full path to the feature file (c:\temp\my.feature).
+You can pass the feature name without the full path (my.feature).
+You can pass the feature name without the full path and without the file extension (my).
+The setting is applied only if feature files are loaded from the directory.</v8:content>
+																			</v8:item>
+																		</Title>
+																	</ExtendedTooltip>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
 													</ChildItems>
 												</UsualGroup>
 												<UsualGroup name="ГруппаЯзык" id="2661">
