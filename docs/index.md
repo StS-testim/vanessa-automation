@@ -42,6 +42,8 @@
 * [Как настроить тестирование с Vanessa Automation и Gitlab с нуля](https://habr.com/ru/companies/samolet/articles/803345/)
 * [Как убить трех зайцев одним сценарием: опыт использования Vanessa-Automation](https://habr.com/ru/companies/croc/articles/861134/)
 * [Леонид Паутов, Анастасия Андриянова. Промышленное тестирование конфигураций в 1С](https://infostart.ru/1c/articles/2299156/)
+* [Александр Кунташов. Автоматизация тестирования решений на 1С: Ожидания vs Реальность](https://infostart.ru/1c/articles/2407502/)
+* [Татьяна Головкина. От ручного тестирования до запусков в Docker: наш поиск идеального процесса](https://infostart.ru/1c/articles/2418640/)
 
 ## СППР + Vanessa Automation
 
