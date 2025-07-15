@@ -9,7 +9,7 @@
 ## BDD for 1С:Enterprise
 
 * Текущий **мажорный** релиз [1.2.042.1](https://github.com/Pr-Mex/vanessa-automation/releases/tag/1.2.042.1)
-* Текущий **минорный** релиз [1.2.042.12](https://github.com/Pr-Mex/vanessa-automation/releases/tag/1.2.042.12)
+* Текущий **минорный** релиз [1.2.042.19](https://github.com/Pr-Mex/vanessa-automation/releases/tag/1.2.042.19)
 * Разработка ведется в ветке [Develop](https://github.com/Pr-Mex/vanessa-automation/tree/develop).
 * [Обсудить Ванессу](https://t.me/testspro1c) в телеграм группе, и обсудить всё, что связано с тестированием в 1С.
 * [Подписаться на новости о проекте](https://t.me/VanessaAutomation) в телеграм канале.
@@ -118,7 +118,7 @@
 opm install vanessa-automation
 ```
 
-* Для текущей релизной версии (например 1.2.042.10)
+* Для текущей релизной версии (например 1.2.042.19)
 ```
 opm install vanessa-automation@SNAPSHOT
 ```
@@ -130,7 +130,7 @@ opm install vanessa-automation@SNAPSHOT
 opm install vanessa-automation-single
 ```
 
-* Для текущей релизной версии (например 1.2.042.10)
+* Для текущей релизной версии (например 1.2.042.19)
 ```
 opm install vanessa-automation-single@SNAPSHOT
 ```
